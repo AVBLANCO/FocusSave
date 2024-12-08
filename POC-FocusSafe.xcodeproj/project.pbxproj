@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EABEF3D2D06007A00A06C8B /* POC_FocusSaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABEF3C2D06007A00A06C8B /* POC_FocusSaveTests.swift */; };
+		8EABEF402D06009500A06C8B /* POC_FocusSaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABEF3E2D06009500A06C8B /* POC_FocusSaveUITestsLaunchTests.swift */; };
+		8EABEF412D06009500A06C8B /* POC_FocusSaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EABEF3F2D06009500A06C8B /* POC_FocusSaveUITests.swift */; };
+		8EEAF2312D05F71E00A95180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF22C2D05F71E00A95180 /* Assets.xcassets */; };
+		8EEAF2322D05F71E00A95180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF20D2D05F71E00A95180 /* Preview Assets.xcassets */; };
+		8EEAF2342D05F71E00A95180 /* FamilyActivityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21F2D05F71E00A95180 /* FamilyActivityPickerView.swift */; };
+		8EEAF2352D05F71E00A95180 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2162D05F71E00A95180 /* ContactsViewModel.swift */; };
+		8EEAF2362D05F71E00A95180 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2172D05F71E00A95180 /* LocationViewModel.swift */; };
+		8EEAF2372D05F71E00A95180 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2282D05F71E00A95180 /* TimerView.swift */; };
+		8EEAF2382D05F71E00A95180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22D2D05F71E00A95180 /* ContentView.swift */; };
+		8EEAF2392D05F71E00A95180 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21D2D05F71E00A95180 /* ContactsView.swift */; };
+		8EEAF23A2D05F71E00A95180 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2112D05F71E00A95180 /* NotificationManager.swift */; };
+		8EEAF23B2D05F71E00A95180 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2122D05F71E00A95180 /* ProfileManager.swift */; };
+		8EEAF23C2D05F71E00A95180 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2152D05F71E00A95180 /* CalendarViewModel.swift */; };
+		8EEAF23D2D05F71E00A95180 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2132D05F71E00A95180 /* ScreenTimeManager.swift */; };
+		8EEAF23E2D05F71E00A95180 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2262D05F71E00A95180 /* ProfileView.swift */; };
+		8EEAF23F2D05F71E00A95180 /* FocusModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2212D05F71E00A95180 /* FocusModeView.swift */; };
+		8EEAF2402D05F71E00A95180 /* FocusedBlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2202D05F71E00A95180 /* FocusedBlockedView.swift */; };
+		8EEAF2412D05F71E00A95180 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2232D05F71E00A95180 /* LocationView.swift */; };
+		8EEAF2422D05F71E00A95180 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2252D05F71E00A95180 /* PhotosView.swift */; };
+		8EEAF2432D05F71E00A95180 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2242D05F71E00A95180 /* MainView.swift */; };
+		8EEAF2442D05F71E00A95180 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF20F2D05F71E00A95180 /* CallManager.swift */; };
+		8EEAF2452D05F71E00A95180 /* ScreenTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2272D05F71E00A95180 /* ScreenTimeView.swift */; };
+		8EEAF2462D05F71E00A95180 /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21A2D05F71E00A95180 /* AppListView.swift */; };
+		8EEAF2472D05F71E00A95180 /* FocusModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2102D05F71E00A95180 /* FocusModeManager.swift */; };
+		8EEAF2482D05F71E00A95180 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2292D05F71E00A95180 /* TimerViewController.swift */; };
+		8EEAF2492D05F71E00A95180 /* POC_FocusSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22F2D05F71E00A95180 /* POC_FocusSafeApp.swift */; };
+		8EEAF24A2D05F71E00A95180 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF20B2D05F71E00A95180 /* Profile.swift */; };
+		8EEAF24B2D05F71E00A95180 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2182D05F71E00A95180 /* PhotosViewModel.swift */; };
+		8EEAF24C2D05F71E00A95180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22B2D05F71E00A95180 /* AppDelegate.swift */; };
+		8EEAF24D2D05F71E00A95180 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21C2D05F71E00A95180 /* CalendarView.swift */; };
+		8EEAF24E2D05F71E00A95180 /* DeviceManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21E2D05F71E00A95180 /* DeviceManagementView.swift */; };
+		8EEAF24F2D05F71E00A95180 /* FocusTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2222D05F71E00A95180 /* FocusTimeView.swift */; };
+		8EEAF2502D05F71E00A95180 /* BlockingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21B2D05F71E00A95180 /* BlockingView.swift */; };
+		8EEAF2512D05F71E00A95180 /* FamilyActivityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21F2D05F71E00A95180 /* FamilyActivityPickerView.swift */; };
+		8EEAF2522D05F71E00A95180 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2162D05F71E00A95180 /* ContactsViewModel.swift */; };
+		8EEAF2532D05F71E00A95180 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2172D05F71E00A95180 /* LocationViewModel.swift */; };
+		8EEAF2542D05F71E00A95180 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2282D05F71E00A95180 /* TimerView.swift */; };
+		8EEAF2552D05F71E00A95180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22D2D05F71E00A95180 /* ContentView.swift */; };
+		8EEAF2562D05F71E00A95180 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21D2D05F71E00A95180 /* ContactsView.swift */; };
+		8EEAF2572D05F71E00A95180 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2112D05F71E00A95180 /* NotificationManager.swift */; };
+		8EEAF2582D05F71E00A95180 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2122D05F71E00A95180 /* ProfileManager.swift */; };
+		8EEAF2592D05F71E00A95180 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2152D05F71E00A95180 /* CalendarViewModel.swift */; };
+		8EEAF25A2D05F71E00A95180 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2132D05F71E00A95180 /* ScreenTimeManager.swift */; };
+		8EEAF25B2D05F71E00A95180 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2262D05F71E00A95180 /* ProfileView.swift */; };
+		8EEAF25C2D05F71E00A95180 /* FocusModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2212D05F71E00A95180 /* FocusModeView.swift */; };
+		8EEAF25D2D05F71E00A95180 /* FocusedBlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2202D05F71E00A95180 /* FocusedBlockedView.swift */; };
+		8EEAF25E2D05F71E00A95180 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2232D05F71E00A95180 /* LocationView.swift */; };
+		8EEAF25F2D05F71E00A95180 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2252D05F71E00A95180 /* PhotosView.swift */; };
+		8EEAF2602D05F71E00A95180 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2242D05F71E00A95180 /* MainView.swift */; };
+		8EEAF2612D05F71E00A95180 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF20F2D05F71E00A95180 /* CallManager.swift */; };
+		8EEAF2622D05F71E00A95180 /* ScreenTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2272D05F71E00A95180 /* ScreenTimeView.swift */; };
+		8EEAF2632D05F71E00A95180 /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21A2D05F71E00A95180 /* AppListView.swift */; };
+		8EEAF2642D05F71E00A95180 /* FocusModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2102D05F71E00A95180 /* FocusModeManager.swift */; };
+		8EEAF2652D05F71E00A95180 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2292D05F71E00A95180 /* TimerViewController.swift */; };
+		8EEAF2662D05F71E00A95180 /* POC_FocusSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22F2D05F71E00A95180 /* POC_FocusSafeApp.swift */; };
+		8EEAF2672D05F71E00A95180 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF20B2D05F71E00A95180 /* Profile.swift */; };
+		8EEAF2682D05F71E00A95180 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2182D05F71E00A95180 /* PhotosViewModel.swift */; };
+		8EEAF2692D05F71E00A95180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22B2D05F71E00A95180 /* AppDelegate.swift */; };
+		8EEAF26A2D05F71E00A95180 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21C2D05F71E00A95180 /* CalendarView.swift */; };
+		8EEAF26B2D05F71E00A95180 /* DeviceManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21E2D05F71E00A95180 /* DeviceManagementView.swift */; };
+		8EEAF26C2D05F71E00A95180 /* FocusTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2222D05F71E00A95180 /* FocusTimeView.swift */; };
+		8EEAF26D2D05F71E00A95180 /* BlockingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21B2D05F71E00A95180 /* BlockingView.swift */; };
+		8EEAF26E2D05F71E00A95180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF22C2D05F71E00A95180 /* Assets.xcassets */; };
+		8EEAF26F2D05F71E00A95180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF20D2D05F71E00A95180 /* Preview Assets.xcassets */; };
+		8EEAF2702D05F71E00A95180 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF22E2D05F71E00A95180 /* Info.plist */; };
+		8EEAF2712D05F71E00A95180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF22C2D05F71E00A95180 /* Assets.xcassets */; };
+		8EEAF2722D05F71E00A95180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF20D2D05F71E00A95180 /* Preview Assets.xcassets */; };
+		8EEAF2732D05F71E00A95180 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EEAF22E2D05F71E00A95180 /* Info.plist */; };
+		8EEAF2742D05F71E00A95180 /* FamilyActivityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21F2D05F71E00A95180 /* FamilyActivityPickerView.swift */; };
+		8EEAF2752D05F71E00A95180 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2162D05F71E00A95180 /* ContactsViewModel.swift */; };
+		8EEAF2762D05F71E00A95180 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2172D05F71E00A95180 /* LocationViewModel.swift */; };
+		8EEAF2772D05F71E00A95180 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2282D05F71E00A95180 /* TimerView.swift */; };
+		8EEAF2782D05F71E00A95180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22D2D05F71E00A95180 /* ContentView.swift */; };
+		8EEAF2792D05F71E00A95180 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21D2D05F71E00A95180 /* ContactsView.swift */; };
+		8EEAF27A2D05F71E00A95180 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2112D05F71E00A95180 /* NotificationManager.swift */; };
+		8EEAF27B2D05F71E00A95180 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2122D05F71E00A95180 /* ProfileManager.swift */; };
+		8EEAF27C2D05F71E00A95180 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2152D05F71E00A95180 /* CalendarViewModel.swift */; };
+		8EEAF27D2D05F71E00A95180 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2132D05F71E00A95180 /* ScreenTimeManager.swift */; };
+		8EEAF27E2D05F71E00A95180 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2262D05F71E00A95180 /* ProfileView.swift */; };
+		8EEAF27F2D05F71E00A95180 /* FocusModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2212D05F71E00A95180 /* FocusModeView.swift */; };
+		8EEAF2802D05F71E00A95180 /* FocusedBlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2202D05F71E00A95180 /* FocusedBlockedView.swift */; };
+		8EEAF2812D05F71E00A95180 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2232D05F71E00A95180 /* LocationView.swift */; };
+		8EEAF2822D05F71E00A95180 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2252D05F71E00A95180 /* PhotosView.swift */; };
+		8EEAF2832D05F71E00A95180 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2242D05F71E00A95180 /* MainView.swift */; };
+		8EEAF2842D05F71E00A95180 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF20F2D05F71E00A95180 /* CallManager.swift */; };
+		8EEAF2852D05F71E00A95180 /* ScreenTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2272D05F71E00A95180 /* ScreenTimeView.swift */; };
+		8EEAF2862D05F71E00A95180 /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21A2D05F71E00A95180 /* AppListView.swift */; };
+		8EEAF2872D05F71E00A95180 /* FocusModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2102D05F71E00A95180 /* FocusModeManager.swift */; };
+		8EEAF2882D05F71E00A95180 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2292D05F71E00A95180 /* TimerViewController.swift */; };
+		8EEAF2892D05F71E00A95180 /* POC_FocusSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22F2D05F71E00A95180 /* POC_FocusSafeApp.swift */; };
+		8EEAF28A2D05F71E00A95180 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF20B2D05F71E00A95180 /* Profile.swift */; };
+		8EEAF28B2D05F71E00A95180 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2182D05F71E00A95180 /* PhotosViewModel.swift */; };
+		8EEAF28C2D05F71E00A95180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF22B2D05F71E00A95180 /* AppDelegate.swift */; };
+		8EEAF28D2D05F71E00A95180 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21C2D05F71E00A95180 /* CalendarView.swift */; };
+		8EEAF28E2D05F71E00A95180 /* DeviceManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21E2D05F71E00A95180 /* DeviceManagementView.swift */; };
+		8EEAF28F2D05F71E00A95180 /* FocusTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF2222D05F71E00A95180 /* FocusTimeView.swift */; };
+		8EEAF2902D05F71E00A95180 /* BlockingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAF21B2D05F71E00A95180 /* BlockingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ECFA5882CCBFD8500BBD4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECFA56F2CCBFD8400BBD4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECFA5762CCBFD8400BBD4BA;
+			remoteInfo = "POC-FocusSafe";
+		};
+		8ECFA5922CCBFD8500BBD4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECFA56F2CCBFD8400BBD4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECFA5762CCBFD8400BBD4BA;
+			remoteInfo = "POC-FocusSafe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EC041952CDBF4E7006EACE8 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8EABEF3C2D06007A00A06C8B /* POC_FocusSaveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POC_FocusSaveTests.swift; sourceTree = "<group>"; };
+		8EABEF3E2D06009500A06C8B /* POC_FocusSaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POC_FocusSaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EABEF3F2D06009500A06C8B /* POC_FocusSaveUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POC_FocusSaveUITests.swift; sourceTree = "<group>"; };
+		8ECFA5772CCBFD8400BBD4BA /* POC-FocusSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-FocusSafe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECFA5872CCBFD8500BBD4BA /* POC-FocusSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-FocusSafeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECFA5912CCBFD8500BBD4BA /* POC-FocusSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-FocusSafeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEAF20B2D05F71E00A95180 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8EEAF20D2D05F71E00A95180 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EEAF20F2D05F71E00A95180 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		8EEAF2102D05F71E00A95180 /* FocusModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModeManager.swift; sourceTree = "<group>"; };
+		8EEAF2112D05F71E00A95180 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		8EEAF2122D05F71E00A95180 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		8EEAF2132D05F71E00A95180 /* ScreenTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+		8EEAF2152D05F71E00A95180 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		8EEAF2162D05F71E00A95180 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		8EEAF2172D05F71E00A95180 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		8EEAF2182D05F71E00A95180 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		8EEAF21A2D05F71E00A95180 /* AppListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListView.swift; sourceTree = "<group>"; };
+		8EEAF21B2D05F71E00A95180 /* BlockingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingView.swift; sourceTree = "<group>"; };
+		8EEAF21C2D05F71E00A95180 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		8EEAF21D2D05F71E00A95180 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		8EEAF21E2D05F71E00A95180 /* DeviceManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManagementView.swift; sourceTree = "<group>"; };
+		8EEAF21F2D05F71E00A95180 /* FamilyActivityPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyActivityPickerView.swift; sourceTree = "<group>"; };
+		8EEAF2202D05F71E00A95180 /* FocusedBlockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedBlockedView.swift; sourceTree = "<group>"; };
+		8EEAF2212D05F71E00A95180 /* FocusModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModeView.swift; sourceTree = "<group>"; };
+		8EEAF2222D05F71E00A95180 /* FocusTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimeView.swift; sourceTree = "<group>"; };
+		8EEAF2232D05F71E00A95180 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		8EEAF2242D05F71E00A95180 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8EEAF2252D05F71E00A95180 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		8EEAF2262D05F71E00A95180 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8EEAF2272D05F71E00A95180 /* ScreenTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeView.swift; sourceTree = "<group>"; };
+		8EEAF2282D05F71E00A95180 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		8EEAF2292D05F71E00A95180 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8EEAF22B2D05F71E00A95180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EEAF22C2D05F71E00A95180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EEAF22D2D05F71E00A95180 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EEAF22E2D05F71E00A95180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EEAF22F2D05F71E00A95180 /* POC_FocusSafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_FocusSafeApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECFA5742CCBFD8400BBD4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECFA5842CCBFD8500BBD4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECFA58E2CCBFD8500BBD4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECFA56E2CCBFD8400BBD4BA = {
+			isa = PBXGroup;
+			children = (
+				8EEAF2962D05F75F00A95180 /* POC-FocusSafeUITests */,
+				8EEAF2922D05F73D00A95180 /* POC-FocusSafeTests */,
+				8EEAF2302D05F71E00A95180 /* POC-FocusSafe */,
+				8ECFA5782CCBFD8400BBD4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECFA5782CCBFD8400BBD4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECFA5772CCBFD8400BBD4BA /* POC-FocusSafe.app */,
+				8ECFA5872CCBFD8500BBD4BA /* POC-FocusSafeTests.xctest */,
+				8ECFA5912CCBFD8500BBD4BA /* POC-FocusSafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EEAF20C2D05F71E00A95180 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAF20B2D05F71E00A95180 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EEAF20E2D05F71E00A95180 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAF20D2D05F71E00A95180 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EEAF2142D05F71E00A95180 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAF20F2D05F71E00A95180 /* CallManager.swift */,
+				8EEAF2102D05F71E00A95180 /* FocusModeManager.swift */,
+				8EEAF2112D05F71E00A95180 /* NotificationManager.swift */,
+				8EEAF2122D05F71E00A95180 /* ProfileManager.swift */,
+				8EEAF2132D05F71E00A95180 /* ScreenTimeManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8EEAF2192D05F71E00A95180 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAF2142D05F71E00A95180 /* Manager */,
+				8EEAF2152D05F71E00A95180 /* CalendarViewModel.swift */,
+				8EEAF2162D05F71E00A95180 /* ContactsViewModel.swift */,
+				8EEAF2172D05F71E00A95180 /* LocationViewModel.swift */,
+				8EEAF2182D05F71E00A95180 /* PhotosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8EEAF22A2D05F71E00A95180 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAF21A2D05F71E00A95180 /* AppListView.swift */,
+				8EEAF21B2D05F71E00A95180 /* BlockingView.swift */,
+				8EEAF21C2D05F71E00A95180 /* CalendarView.swift */,
+				8EEAF21D2D05F71E00A95180 /* ContactsView.swift */,
+				8EEAF21E2D05F71E00A95180 /* DeviceManagementView.swift */,
+				8EEAF21F2D05F71E00A95180 /* FamilyActivityPickerView.swift */,
+				8EEAF2202D05F71E00A95180 /* FocusedBlockedView.swift */,
+				8EEAF2212D05F71E00A95180 /* FocusModeView.swift */,
+				8EEAF2222D05F71E00A95180 /* FocusTimeView.swift */,
+				8EEAF2232D05F71E00A95180 /* LocationView.swift */,
+				8EEAF2242D05F71E00A95180 /* MainView.swift */,
+				8EEAF2252D05F71E00A95180 /* PhotosView.swift */,
+				8EEAF2262D05F71E00A95180 /* ProfileView.swift */,
+				8EEAF2272D05F71E00A95180 /* ScreenTimeView.swift */,
+				8EEAF2282D05F71E00A95180 /* TimerView.swift */,
+				8EEAF2292D05F71E00A95180 /* TimerViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EEAF2302D05F71E00A95180 /* POC-FocusSafe */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAF20C2D05F71E00A95180 /* Model */,
+				8EEAF20E2D05F71E00A95180 /* Preview Content */,
+				8EEAF2192D05F71E00A95180 /* ViewModel */,
+				8EEAF22A2D05F71E00A95180 /* Views */,
+				8EEAF22B2D05F71E00A95180 /* AppDelegate.swift */,
+				8EEAF22C2D05F71E00A95180 /* Assets.xcassets */,
+				8EEAF22D2D05F71E00A95180 /* ContentView.swift */,
+				8EEAF22E2D05F71E00A95180 /* Info.plist */,
+				8EEAF22F2D05F71E00A95180 /* POC_FocusSafeApp.swift */,
+			);
+			path = "POC-FocusSafe";
+			sourceTree = "<group>";
+		};
+		8EEAF2922D05F73D00A95180 /* POC-FocusSafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EABEF3C2D06007A00A06C8B /* POC_FocusSaveTests.swift */,
+			);
+			path = "POC-FocusSafeTests";
+			sourceTree = "<group>";
+		};
+		8EEAF2962D05F75F00A95180 /* POC-FocusSafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EABEF3F2D06009500A06C8B /* POC_FocusSaveUITests.swift */,
+				8EABEF3E2D06009500A06C8B /* POC_FocusSaveUITestsLaunchTests.swift */,
+			);
+			path = "POC-FocusSafeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECFA5762CCBFD8400BBD4BA /* POC-FocusSafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECFA59B2CCBFD8500BBD4BA /* Build configuration list for PBXNativeTarget "POC-FocusSafe" */;
+			buildPhases = (
+				8ECFA5732CCBFD8400BBD4BA /* Sources */,
+				8ECFA5742CCBFD8400BBD4BA /* Frameworks */,
+				8ECFA5752CCBFD8400BBD4BA /* Resources */,
+				8EC041952CDBF4E7006EACE8 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-FocusSafe";
+			productName = "POC-FocusSafe";
+			productReference = 8ECFA5772CCBFD8400BBD4BA /* POC-FocusSafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ECFA5862CCBFD8500BBD4BA /* POC-FocusSafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECFA59E2CCBFD8500BBD4BA /* Build configuration list for PBXNativeTarget "POC-FocusSafeTests" */;
+			buildPhases = (
+				8ECFA5832CCBFD8500BBD4BA /* Sources */,
+				8ECFA5842CCBFD8500BBD4BA /* Frameworks */,
+				8ECFA5852CCBFD8500BBD4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECFA5892CCBFD8500BBD4BA /* PBXTargetDependency */,
+			);
+			name = "POC-FocusSafeTests";
+			productName = "POC-FocusSafeTests";
+			productReference = 8ECFA5872CCBFD8500BBD4BA /* POC-FocusSafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ECFA5902CCBFD8500BBD4BA /* POC-FocusSafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECFA5A12CCBFD8500BBD4BA /* Build configuration list for PBXNativeTarget "POC-FocusSafeUITests" */;
+			buildPhases = (
+				8ECFA58D2CCBFD8500BBD4BA /* Sources */,
+				8ECFA58E2CCBFD8500BBD4BA /* Frameworks */,
+				8ECFA58F2CCBFD8500BBD4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECFA5932CCBFD8500BBD4BA /* PBXTargetDependency */,
+			);
+			name = "POC-FocusSafeUITests";
+			productName = "POC-FocusSafeUITests";
+			productReference = 8ECFA5912CCBFD8500BBD4BA /* POC-FocusSafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECFA56F2CCBFD8400BBD4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8ECFA5762CCBFD8400BBD4BA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8ECFA5862CCBFD8500BBD4BA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8ECFA5762CCBFD8400BBD4BA;
+					};
+					8ECFA5902CCBFD8500BBD4BA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8ECFA5762CCBFD8400BBD4BA;
+					};
+				};
+			};
+			buildConfigurationList = 8ECFA5722CCBFD8400BBD4BA /* Build configuration list for PBXProject "POC-FocusSafe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECFA56E2CCBFD8400BBD4BA;
+			productRefGroup = 8ECFA5782CCBFD8400BBD4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECFA5762CCBFD8400BBD4BA /* POC-FocusSafe */,
+				8ECFA5862CCBFD8500BBD4BA /* POC-FocusSafeTests */,
+				8ECFA5902CCBFD8500BBD4BA /* POC-FocusSafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECFA5752CCBFD8400BBD4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAF2312D05F71E00A95180 /* Assets.xcassets in Resources */,
+				8EEAF2322D05F71E00A95180 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECFA5852CCBFD8500BBD4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAF2712D05F71E00A95180 /* Assets.xcassets in Resources */,
+				8EEAF2722D05F71E00A95180 /* Preview Assets.xcassets in Resources */,
+				8EEAF2732D05F71E00A95180 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECFA58F2CCBFD8500BBD4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAF26E2D05F71E00A95180 /* Assets.xcassets in Resources */,
+				8EEAF26F2D05F71E00A95180 /* Preview Assets.xcassets in Resources */,
+				8EEAF2702D05F71E00A95180 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECFA5732CCBFD8400BBD4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAF2342D05F71E00A95180 /* FamilyActivityPickerView.swift in Sources */,
+				8EEAF2352D05F71E00A95180 /* ContactsViewModel.swift in Sources */,
+				8EEAF2362D05F71E00A95180 /* LocationViewModel.swift in Sources */,
+				8EEAF2372D05F71E00A95180 /* TimerView.swift in Sources */,
+				8EEAF2382D05F71E00A95180 /* ContentView.swift in Sources */,
+				8EEAF2392D05F71E00A95180 /* ContactsView.swift in Sources */,
+				8EEAF23A2D05F71E00A95180 /* NotificationManager.swift in Sources */,
+				8EEAF23B2D05F71E00A95180 /* ProfileManager.swift in Sources */,
+				8EEAF23C2D05F71E00A95180 /* CalendarViewModel.swift in Sources */,
+				8EEAF23D2D05F71E00A95180 /* ScreenTimeManager.swift in Sources */,
+				8EEAF23E2D05F71E00A95180 /* ProfileView.swift in Sources */,
+				8EEAF23F2D05F71E00A95180 /* FocusModeView.swift in Sources */,
+				8EEAF2402D05F71E00A95180 /* FocusedBlockedView.swift in Sources */,
+				8EEAF2412D05F71E00A95180 /* LocationView.swift in Sources */,
+				8EEAF2422D05F71E00A95180 /* PhotosView.swift in Sources */,
+				8EEAF2432D05F71E00A95180 /* MainView.swift in Sources */,
+				8EEAF2442D05F71E00A95180 /* CallManager.swift in Sources */,
+				8EEAF2452D05F71E00A95180 /* ScreenTimeView.swift in Sources */,
+				8EEAF2462D05F71E00A95180 /* AppListView.swift in Sources */,
+				8EEAF2472D05F71E00A95180 /* FocusModeManager.swift in Sources */,
+				8EEAF2482D05F71E00A95180 /* TimerViewController.swift in Sources */,
+				8EEAF2492D05F71E00A95180 /* POC_FocusSafeApp.swift in Sources */,
+				8EEAF24A2D05F71E00A95180 /* Profile.swift in Sources */,
+				8EEAF24B2D05F71E00A95180 /* PhotosViewModel.swift in Sources */,
+				8EEAF24C2D05F71E00A95180 /* AppDelegate.swift in Sources */,
+				8EEAF24D2D05F71E00A95180 /* CalendarView.swift in Sources */,
+				8EEAF24E2D05F71E00A95180 /* DeviceManagementView.swift in Sources */,
+				8EEAF24F2D05F71E00A95180 /* FocusTimeView.swift in Sources */,
+				8EEAF2502D05F71E00A95180 /* BlockingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECFA5832CCBFD8500BBD4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAF2742D05F71E00A95180 /* FamilyActivityPickerView.swift in Sources */,
+				8EEAF2752D05F71E00A95180 /* ContactsViewModel.swift in Sources */,
+				8EEAF2762D05F71E00A95180 /* LocationViewModel.swift in Sources */,
+				8EEAF2772D05F71E00A95180 /* TimerView.swift in Sources */,
+				8EEAF2782D05F71E00A95180 /* ContentView.swift in Sources */,
+				8EEAF2792D05F71E00A95180 /* ContactsView.swift in Sources */,
+				8EEAF27A2D05F71E00A95180 /* NotificationManager.swift in Sources */,
+				8EEAF27B2D05F71E00A95180 /* ProfileManager.swift in Sources */,
+				8EEAF27C2D05F71E00A95180 /* CalendarViewModel.swift in Sources */,
+				8EEAF27D2D05F71E00A95180 /* ScreenTimeManager.swift in Sources */,
+				8EEAF27E2D05F71E00A95180 /* ProfileView.swift in Sources */,
+				8EEAF27F2D05F71E00A95180 /* FocusModeView.swift in Sources */,
+				8EEAF2802D05F71E00A95180 /* FocusedBlockedView.swift in Sources */,
+				8EEAF2812D05F71E00A95180 /* LocationView.swift in Sources */,
+				8EEAF2822D05F71E00A95180 /* PhotosView.swift in Sources */,
+				8EEAF2832D05F71E00A95180 /* MainView.swift in Sources */,
+				8EEAF2842D05F71E00A95180 /* CallManager.swift in Sources */,
+				8EEAF2852D05F71E00A95180 /* ScreenTimeView.swift in Sources */,
+				8EEAF2862D05F71E00A95180 /* AppListView.swift in Sources */,
+				8EEAF2872D05F71E00A95180 /* FocusModeManager.swift in Sources */,
+				8EEAF2882D05F71E00A95180 /* TimerViewController.swift in Sources */,
+				8EEAF2892D05F71E00A95180 /* POC_FocusSafeApp.swift in Sources */,
+				8EEAF28A2D05F71E00A95180 /* Profile.swift in Sources */,
+				8EEAF28B2D05F71E00A95180 /* PhotosViewModel.swift in Sources */,
+				8EEAF28C2D05F71E00A95180 /* AppDelegate.swift in Sources */,
+				8EEAF28D2D05F71E00A95180 /* CalendarView.swift in Sources */,
+				8EABEF3D2D06007A00A06C8B /* POC_FocusSaveTests.swift in Sources */,
+				8EEAF28E2D05F71E00A95180 /* DeviceManagementView.swift in Sources */,
+				8EEAF28F2D05F71E00A95180 /* FocusTimeView.swift in Sources */,
+				8EEAF2902D05F71E00A95180 /* BlockingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECFA58D2CCBFD8500BBD4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAF2512D05F71E00A95180 /* FamilyActivityPickerView.swift in Sources */,
+				8EEAF2522D05F71E00A95180 /* ContactsViewModel.swift in Sources */,
+				8EEAF2532D05F71E00A95180 /* LocationViewModel.swift in Sources */,
+				8EEAF2542D05F71E00A95180 /* TimerView.swift in Sources */,
+				8EEAF2552D05F71E00A95180 /* ContentView.swift in Sources */,
+				8EEAF2562D05F71E00A95180 /* ContactsView.swift in Sources */,
+				8EEAF2572D05F71E00A95180 /* NotificationManager.swift in Sources */,
+				8EEAF2582D05F71E00A95180 /* ProfileManager.swift in Sources */,
+				8EABEF412D06009500A06C8B /* POC_FocusSaveUITests.swift in Sources */,
+				8EEAF2592D05F71E00A95180 /* CalendarViewModel.swift in Sources */,
+				8EEAF25A2D05F71E00A95180 /* ScreenTimeManager.swift in Sources */,
+				8EEAF25B2D05F71E00A95180 /* ProfileView.swift in Sources */,
+				8EEAF25C2D05F71E00A95180 /* FocusModeView.swift in Sources */,
+				8EEAF25D2D05F71E00A95180 /* FocusedBlockedView.swift in Sources */,
+				8EEAF25E2D05F71E00A95180 /* LocationView.swift in Sources */,
+				8EEAF25F2D05F71E00A95180 /* PhotosView.swift in Sources */,
+				8EEAF2602D05F71E00A95180 /* MainView.swift in Sources */,
+				8EEAF2612D05F71E00A95180 /* CallManager.swift in Sources */,
+				8EEAF2622D05F71E00A95180 /* ScreenTimeView.swift in Sources */,
+				8EEAF2632D05F71E00A95180 /* AppListView.swift in Sources */,
+				8EEAF2642D05F71E00A95180 /* FocusModeManager.swift in Sources */,
+				8EEAF2652D05F71E00A95180 /* TimerViewController.swift in Sources */,
+				8EEAF2662D05F71E00A95180 /* POC_FocusSafeApp.swift in Sources */,
+				8EEAF2672D05F71E00A95180 /* Profile.swift in Sources */,
+				8EEAF2682D05F71E00A95180 /* PhotosViewModel.swift in Sources */,
+				8EEAF2692D05F71E00A95180 /* AppDelegate.swift in Sources */,
+				8EABEF402D06009500A06C8B /* POC_FocusSaveUITestsLaunchTests.swift in Sources */,
+				8EEAF26A2D05F71E00A95180 /* CalendarView.swift in Sources */,
+				8EEAF26B2D05F71E00A95180 /* DeviceManagementView.swift in Sources */,
+				8EEAF26C2D05F71E00A95180 /* FocusTimeView.swift in Sources */,
+				8EEAF26D2D05F71E00A95180 /* BlockingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ECFA5892CCBFD8500BBD4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECFA5762CCBFD8400BBD4BA /* POC-FocusSafe */;
+			targetProxy = 8ECFA5882CCBFD8500BBD4BA /* PBXContainerItemProxy */;
+		};
+		8ECFA5932CCBFD8500BBD4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECFA5762CCBFD8400BBD4BA /* POC-FocusSafe */;
+			targetProxy = 8ECFA5922CCBFD8500BBD4BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8ECFA5992CCBFD8500BBD4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ECFA59A2CCBFD8500BBD4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECFA59C2CCBFD8500BBD4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POC-FocusSafe/Preview Content\"";
+				DEVELOPMENT_TEAM = H6P3V5FB7W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-FocusSafe/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Esta aplicación necesita acceso a tu calendario para listar los eventos";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Esta aplicación necesita acceso a tus contactos para listarlos.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "La aplicación necesita acceso a tu ubicación en todo momento para ofrecerte una mejor experiencia.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta aplicación necesita acceso a tu ubicación para mostrar tu posición en el mapa.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Esta aplicación necesita acceso a tu galería para mostrar tus fotos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.POC-FocusSafe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ECFA59D2CCBFD8500BBD4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POC-FocusSafe/Preview Content\"";
+				DEVELOPMENT_TEAM = H6P3V5FB7W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-FocusSafe/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Esta aplicación necesita acceso a tu calendario para listar los eventos";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Esta aplicación necesita acceso a tus contactos para listarlos.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "La aplicación necesita acceso a tu ubicación en todo momento para ofrecerte una mejor experiencia.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta aplicación necesita acceso a tu ubicación para mostrar tu posición en el mapa.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Esta aplicación necesita acceso a tu galería para mostrar tus fotos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.POC-FocusSafe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8ECFA59F2CCBFD8500BBD4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6P3V5FB7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.POC-FocusSafeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-FocusSafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-FocusSafe";
+			};
+			name = Debug;
+		};
+		8ECFA5A02CCBFD8500BBD4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6P3V5FB7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.POC-FocusSafeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-FocusSafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-FocusSafe";
+			};
+			name = Release;
+		};
+		8ECFA5A22CCBFD8500BBD4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6P3V5FB7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.POC-FocusSafeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-FocusSafe";
+			};
+			name = Debug;
+		};
+		8ECFA5A32CCBFD8500BBD4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6P3V5FB7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.POC-FocusSafeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-FocusSafe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECFA5722CCBFD8400BBD4BA /* Build configuration list for PBXProject "POC-FocusSafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECFA5992CCBFD8500BBD4BA /* Debug */,
+				8ECFA59A2CCBFD8500BBD4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECFA59B2CCBFD8500BBD4BA /* Build configuration list for PBXNativeTarget "POC-FocusSafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECFA59C2CCBFD8500BBD4BA /* Debug */,
+				8ECFA59D2CCBFD8500BBD4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECFA59E2CCBFD8500BBD4BA /* Build configuration list for PBXNativeTarget "POC-FocusSafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECFA59F2CCBFD8500BBD4BA /* Debug */,
+				8ECFA5A02CCBFD8500BBD4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECFA5A12CCBFD8500BBD4BA /* Build configuration list for PBXNativeTarget "POC-FocusSafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECFA5A22CCBFD8500BBD4BA /* Debug */,
+				8ECFA5A32CCBFD8500BBD4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECFA56F2CCBFD8400BBD4BA /* Project object */;
+}
